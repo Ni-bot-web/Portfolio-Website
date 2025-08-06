@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nitish Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Nitish</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home">
+    <div class="home-container">
+      <img src="images/Nitish.jpg" alt="Nitish Kumar" class="profile-pic" />
+      <div class="home-text">
+        <h1>Hello, I'm <span class="highlight">Nitish Kumar</span></h1>
+        <p>And I'm a <span class="highlight">Web Developer</span></p>
+        <a class="resume-btn" href="#contact">Mail to</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I'm a final-year BCA student and a passionate Web Developer skilled in creating responsive, user-friendly websites using HTML, CSS, JavaScript, and Node.js</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <img src="images/bank.jpg" alt="Bank Management System">
+        <h3>Bank Management System</h3>
+        <p>A basic system to manage accounts, transactions and user data.</p>
+        <a href="https://github.com/yourusername/bank-management" target="_blank" class="github-link">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="images/voting.jpg" alt="Online Voting System">
+        <h3>Online Voting System</h3>
+        <p>A secure voting system where users can vote digitally.</p>
+        <a href="https://github.com/yourusername/online-voting-system" target="_blank" class="github-link">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="images/ticket.jpg" alt="Ticket Booking System">
+        <h3>Railway / Airplane Ticket Booking System</h3>
+        <p>A system to book train or flight tickets with real-time UI updates.</p>
+        <a href="https://github.com/yourusername/ticket-booking-system" target="_blank" class="github-link">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="images/portfolio.jpg" alt="Portfolio Website">
+        <h3>Portfolio Website</h3>
+        <p>A modern, responsive personal website built using HTML, CSS, JS.</p>
+        <a href="https://github.com/yourusername/portfolio" target="_blank" class="github-link">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <a class="resume-btn" href="https://drive.google.com/file/d/1i5U35zgAit1-YywxieFPLHtFKx0_gskh/view?usp=sharing" download>📄 Download My Resume</a>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nitish Kumar | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
